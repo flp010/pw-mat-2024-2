@@ -4,7 +4,7 @@ import CarsForm from '../pages/cars/CarsForm'
 import CarsList from '../pages/cars/CarsList'
 import CustomersList from '../pages/customers/CustomersList'
 import CustomersForm from '../pages/customers/CustomersForm' 
-import Autor from '../pages/autor' 
+import Autor from '../pages/Autor'   
 
 
 export default function AppRoutes() {

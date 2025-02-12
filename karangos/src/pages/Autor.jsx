@@ -10,8 +10,8 @@ import FavoriteTwoToneIcon from '@mui/icons-material/FavoriteTwoTone';
 export default function Autor() {
 
     const [likes, setLikes] = useState(() => {
-        const savedLikes = localStorage.getItem('likes');
-        return savedLikes ? JSON.parse(savedLikes) : 0;
+        const salvaLikes = localStorage.getItem('likes');
+        return salvaLikes ? JSON.parse(salvaLikes) : 0;
     });
 
     const contaLikes= () => {
